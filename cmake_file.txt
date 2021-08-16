@@ -1,0 +1,6 @@
+file(STRINGS <filename> <variable> [<options>...])
+解析 ASCII 字符串列表<filename>并将其存储在 <variable>. 文件中的二进制数据将被忽略 回车( \r, CR)字符将被忽略
+
+
+REGEX <regex>
+仅考虑与给定正则表达式匹配的字符串
