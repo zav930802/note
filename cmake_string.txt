@@ -1,0 +1,3 @@
+string(REPLACE "${regex} +=" "" ${list_var} ${${list_var}})
+替换 匹配字符串 替换字符串 输出变量 输入变量
+
